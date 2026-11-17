@@ -1,0 +1,55 @@
+/* 全站视觉令牌 —— 所有 hex 色值只允许出现在本文件；组件里只写 Tailwind 工具类或 var(--*)。
+ *
+ * 两个视觉世界：
+ *   1. 舞台（创作台）：深空蓝底色 + 亮色轨迹，文字为白 / 浅蓝灰。
+ *   2. 海报与卡片（画廊、说明面板）：简洁编辑风 —— 纸面、细线、衬线标题。
+ *
+ * 轨迹渐变约定：低空偏青（trace-cyan）→ 高空偏暖黄（trace-gold）。
+ * 后续 canvas 渲染按轨迹高度在这两个令牌之间插值，不要再引入第三个轨迹色。
+ */
+
+@theme {
+  /* 深空舞台 */
+  --color-stage-void: #050a18;
+  --color-stage-deep: #0a1330;
+  --color-stage-mid: #16224a;
+  --color-stage-line: #1e2c5e;
+
+  /* 亮色轨迹 */
+  --color-trace-cyan: #6fe3f4;
+  --color-trace-gold: #f6c560;
+
+  /* 语义信号色：成功 / 危险 / 提示；警示沿用暖金轨迹色，不另立色值 */
+  --color-signal-ok: #7ce0b0;
+  --color-signal-danger: #ff7a6b;
+  --color-signal-info: #8fb8ff;
+
+  /* 舞台上的文字 */
+  --color-ink-on-stage: #eaf1ff;
+  --color-ink-on-stage-muted: #93a5c8;
+
+  /* 编辑风纸面 */
+  --color-paper: #f7f8fa;
+  --color-paper-shade: #eef1f6;
+  --color-ink: #121821;
+  --color-ink-muted: #5a6678;
+  --color-rule: #e1e5ee;
+
+  /* 海报黄昏模板专属：暖杏纸底 + 暮靛画窗 + 暖褐文字（晴空 / 夜航复用上方既有令牌） */
+  --color-poster-paper-dusk: #f5e3cf;
+  --color-poster-window-dusk: #262c52;
+  --color-poster-ink-dusk: #3d2f23;
+  --color-poster-ink-dusk-muted: #7a6a55;
+  --color-poster-rule-dusk: #e2cdb2;
+  --color-poster-ray-dusk: #4a5182;
+
+  /* 字体：全部使用系统字体栈，不加载任何外部字体资源 */
+  --font-display: ui-serif, 'Songti SC', 'Noto Serif CJK SC', 'Source Han Serif SC', SimSun, Georgia, serif;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei',
+    'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* 圆角：舞台圆润，纸面接近直角（编辑风） */
+  --radius-stage: 20px;
+  --radius-card: 3px;
+}

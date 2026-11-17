@@ -1,0 +1,19 @@
+<!-- 令牌同步（规范例外·仅此处允许 hex）：#050a18 = --color-stage-void；#6fe3f4 = --color-trace-cyan；#f6c560 = --color-trace-gold。tokens.css 改色时本文件必须同步。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="trace" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#6fe3f4" />
+      <stop offset="1" stop-color="#f6c560" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#050a18" />
+  <path
+    d="M20 40 C14 34 16 24 24 22 C30 20 32 26 38 24 C46 21 50 28 46 34 C42 40 36 44 30 44 C26 44 23 43 20 40 Z"
+    fill="none"
+    stroke="url(#trace)"
+    stroke-width="4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <circle cx="46" cy="34" r="3.4" fill="#f6c560" />
+</svg>
