@@ -8,7 +8,7 @@
 
 [![在线演示](https://img.shields.io/badge/在线演示-打开即玩-2ea44f?style=flat-square)](https://sky-painting-m33wci77q34.qoder.zone) [![赛道](https://img.shields.io/badge/2026_Qoder_高校创造力大赛-LifeHack-blue?style=flat-square)](#-参赛信息) [![技术栈](https://img.shields.io/badge/Vite_+_React_+_Three.js-项目技术栈-646cff?style=flat-square)](#-技术栈) [![纯前端](https://img.shields.io/badge/纯前端-零后端_·_零外部_AI_接口-orange?style=flat-square)](#-核心设计)
 
-**▶ 在线演示：https://sky-painting-m33wci77q34.qoder.zone**（免登录，打开即玩）
+**▶ 在线演示：[https://sky-painting-m33wci77q34.qoder.zone](https://sky-painting-m33wci77q34.qoder.zone)**（免登录，打开即玩）
 
 </div>
 
